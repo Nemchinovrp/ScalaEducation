@@ -7,6 +7,7 @@ object Factorial {
     val b = new BigInteger("5")
     println(factorial(b))
   }
+
   def factorial(x: BigInteger): BigInteger =
     if (x == BigInteger.ZERO)
       BigInteger.ONE
