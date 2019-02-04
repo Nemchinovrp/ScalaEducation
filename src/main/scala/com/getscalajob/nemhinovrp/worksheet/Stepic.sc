@@ -11,3 +11,5 @@ calc42(sumTo)
 def fix(f : (=> Int => Int) => Int => Int): Int => Int = f(fix(f))
 
 calc42(fix(rec => x => if(x == 0) 0 else x + rec(x -1)))
+
+
