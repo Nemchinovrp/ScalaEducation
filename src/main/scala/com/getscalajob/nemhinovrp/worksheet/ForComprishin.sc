@@ -17,5 +17,5 @@ print(b)
 
 val arr = Array(1, 2, 3, 4, 5)
 
-for (e <- a) yield e * 2
+for (e <- arr) yield e * 2
 
